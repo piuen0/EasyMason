@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+
+<!-- Add Stylesheet -->
+<head> 
+	<link rel="stylesheet" href="masonryStyle.css">
+</head>
+<body>
+
+<!-- Add "masonry" and class="masonry-grid" to <ul> -->
+<input ng-model="search">
+<ul masonry class="masonry-grid">
+	<li ng-repeat="image in images | filter: search">
+		<img ng-src="{{image.location}}" />
+		<span> {{image.title}} </span>
+	</li>
+</ul>
+
+<!-- Add Scripts [Depends on: jQuery, and Angular.js] -->
+<script src="masonry.min.js"></script>
+<script src="masonry-module.js"></script>
+
+</body>
+</html>
