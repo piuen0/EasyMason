@@ -6,7 +6,6 @@ Angular Masonry in 3 Easy Steps
 Credits: 
 
 The masonry core is from: http://masonry.desandro.com
-
 The Angular fiddle is from: http://jsfiddle.net/g/3SH7a/
 
 Info:
