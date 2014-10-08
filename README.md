@@ -1,23 +1,23 @@
 EasyMason
 =========
-
+<h3>
 Angular Masonry in 3 Easy Steps
-
+</h3>
+<h4>
 Credits: 
-
-The masonry core is from: http://masonry.desandro.com
-
+</h4>
+The masonry core is from: http://masonry.desandro.com <br />
 The Angular fiddle is from: http://jsfiddle.net/g/3SH7a/
 
-Info:
-I just cleaned up and modularized the Masonry ports into a few steps so that people don't have to copy and paste anything.
-
+I just cleaned up and modularized the Masonry ports into a few steps so that people don't have to copy and paste much.
+<h4>
 Dependencies:
-
-jQuery
+</h4>
+jQuery <br />
 Angular.js
-
+<h4>
 Instructions:
+</h4>
 1. Add files to application:
   eg:
 
@@ -42,5 +42,6 @@ Instructions:
   	  </li>
     </ul>
     ```
-  
-  Enjoy!
+<h4>  
+Enjoy!
+</h4>
