@@ -4,7 +4,9 @@ EasyMason
 Angular Masonry in 3 Easy Steps
 
 Credits: 
-The masonry core is from: masonry.desandro.com/
+
+The masonry core is from: http://masonry.desandro.com
+
 The Angular fiddle is from: http://jsfiddle.net/g/3SH7a/
 
 Info:
@@ -17,6 +19,7 @@ Angular
 Instructions:
 1. Add files to application:
   eg:
+
   ```html
     <link rel="stylesheet" href="masonryStyle.css">
     <script src="masonry.min.js"></script>
@@ -24,11 +27,13 @@ Instructions:
   ```
 2. Add 'masonry' module to application:
   eg:
+
   ```javascript
     var app = angular.module('app', ['masonry']);
   ```
 3. Use masonry (pulling images from masonry-module.js):
   eg:
+
   ```html
     <ul masonry class="masonry-grid">
   	  <li ng-repeat="image in images">
