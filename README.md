@@ -6,14 +6,16 @@ Angular Masonry in 3 Easy Steps
 Credits: 
 
 The masonry core is from: http://masonry.desandro.com
+
 The Angular fiddle is from: http://jsfiddle.net/g/3SH7a/
 
 Info:
 I just cleaned up and modularized the Masonry ports into a few steps so that people don't have to copy and paste anything.
 
 Dependencies:
+
 jQuery
-Angular
+Angular.js
 
 Instructions:
 1. Add files to application:
